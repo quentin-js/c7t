@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_videos",
+  "info": {
+    "name": "videos",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Video": {
+      "type": "string"
+    },
+    "Preview": {
+      "type": "string"
+    },
+    "Published": {
+      "type": "boolean"
+    }
+  }
+}

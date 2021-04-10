@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_elements_banners",
+  "info": {
+    "name": "Banner",
+    "icon": "window-minimize"
+  },
+  "options": {},
+  "attributes": {
+    "Banner_Desktop": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Banner_Mobile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Banner_Tablet": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Ref": {
+      "type": "string"
+    },
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "Full",
+        "Half",
+        "_default"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "Margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.margin"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_layout_image_specials",
+  "info": {
+    "name": "Image_special",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Image_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "middle"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Ref": {
+      "type": "string"
+    },
+    "Auto_play": {
+      "type": "boolean"
+    },
+    "Loop": {
+      "type": "boolean"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Margin": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.margin"
+    }
+  }
+}

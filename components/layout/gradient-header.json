@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_layout_gradient_headers",
+  "info": {
+    "name": "GradientHeader",
+    "icon": "theater-masks"
+  },
+  "options": {},
+  "attributes": {
+    "GradientPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": true,
+      "component": "settings.theme"
+    },
+    "DecorationType": {
+      "type": "enumeration",
+      "enum": [
+        "type1",
+        "type2",
+        "type3",
+        "type4"
+      ]
+    }
+  }
+}

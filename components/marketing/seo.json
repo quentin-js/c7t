@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_marketing_seos",
+  "info": {
+    "name": "seo",
+    "icon": "money-check"
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
+    },
+    "ShareImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "PreventIndexing": {
+      "type": "boolean"
+    }
+  }
+}

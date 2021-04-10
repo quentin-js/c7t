@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_marketing_embed_tweets",
+  "info": {
+    "name": "EmbedTweet",
+    "icon": "crow"
+  },
+  "options": {},
+  "attributes": {
+    "TweetLink": {
+      "type": "string"
+    }
+  }
+}

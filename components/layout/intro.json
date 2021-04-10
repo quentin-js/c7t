@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_intros",
+  "info": {
+    "name": "Intro",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "component",
+      "repeatable": true,
+      "component": "settings.theme"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}

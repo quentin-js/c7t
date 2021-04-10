@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_links_small_text_with_links",
+  "info": {
+    "name": "SmallTextWithLink",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    },
+    "AlignUnderButton": {
+      "type": "boolean"
+    }
+  }
+}

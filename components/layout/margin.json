@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_margins",
+  "info": {
+    "name": "Margin",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Margin_top": {
+      "type": "integer"
+    },
+    "Margin_bottom": {
+      "type": "integer"
+    }
+  }
+}

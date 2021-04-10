@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_settings_themes",
+  "info": {
+    "name": "Theme",
+    "icon": "paint-brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    },
+    "Blank": {
+      "type": "boolean"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

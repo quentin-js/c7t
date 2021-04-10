@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_links_link_advanceds",
+  "info": {
+    "name": "Link 2",
+    "icon": "external-link-square-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Href": {
+      "type": "string"
+    },
+    "Target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "Text": {
+      "type": "string"
+    },
+    "ContentType": {
+      "type": "enumeration",
+      "enum": [
+        "content_type1",
+        "content_type2",
+        "content_type3"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_quotes",
+  "info": {
+    "name": "quote",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "AuthorImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "QuoteTitle": {
+      "type": "string"
+    },
+    "Quote": {
+      "type": "text"
+    },
+    "Author": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.logos"
+    }
+  }
+}

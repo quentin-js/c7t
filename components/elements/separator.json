@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_separators",
+  "info": {
+    "name": "Separator",
+    "icon": "minus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Separator": {
+      "type": "boolean"
+    },
+    "Size": {
+      "type": "integer"
+    },
+    "Margin": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.margin"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_settings_slugs",
+  "info": {
+    "name": "Slug",
+    "icon": "compress-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Slug": {
+      "type": "string"
+    }
+  }
+}
